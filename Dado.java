@@ -4,11 +4,11 @@ public class Dado {
 	public static void main(String[] args) {
 		
 		//Comienzo tiradas jugador1
-		System.out.print(" pedro hace su 1บ lanzamiento:");
+		System.out.print(" pedro hace su 1ยบ lanzamiento:");
 		int tirada1 = (int) (Math.random()*6 + 1);
 		//double Math.abs(tirada1);
-		System.out.print(Math.abs(tirada1));
-		System.out.print(" pedro hace su  2บ lanzamiento:");
+		System.out.print(Math.round(tirada1));
+		System.out.print(" pedro hace su  2ยบ lanzamiento:");
 		int tirada2 =(int) (Math.random()*6 + 1);
 		System.out.print(Math.abs(tirada2));
 		//SUma tiradas jugador1
@@ -20,7 +20,7 @@ public class Dado {
 		System.out.print("Manuel hace su lanzamiento:");
 		int tirada3 =(int) (Math.random()*6 + 1);
 		System.out.print(Math.round(tirada3));
-		System.out.print("Manuel hace su  2บ lanzamiento:");
+		System.out.print("Manuel hace su  2ยบ lanzamiento:");
 		int tirada4 = (int)(Math.random()*6 + 1);
 		System.out.print(Math.round(tirada4));
 		//Suma de tiradas del segundo jugador
